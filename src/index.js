@@ -1,12 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Page1 from './Page1'
+import Page2 from './Page2'
+import Page3 from './Page3'
 import reportWebVitals from './reportWebVitals';
+import Divider from '@mui/material/Divider';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+<AppBar position="static" >
+  <Toolbar variant="dense" >
+    <Typography variant="h6" color="inherit" component="div">
+      Thrive Tech
+    </Typography>
+  </Toolbar>
+</AppBar>
+
+    <Page1 />
+    <Divider />
+    <Page2 />
+    <Divider />
+    <Page3 />
+    <Divider />
   </React.StrictMode>,
   document.getElementById('root')
 );
