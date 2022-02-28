@@ -4,6 +4,9 @@ import './index.css';
 import Page1 from './Page1'
 import Page2 from './Page2'
 import Page3 from './Page3'
+import Page4 from './Page4'
+import Page5 from './Page5'
+import Page6 from './Page6'
 import reportWebVitals from './reportWebVitals';
 import Divider from '@mui/material/Divider';
 import AppBar from '@mui/material/AppBar';
@@ -26,6 +29,12 @@ ReactDOM.render(
     <Page2 />
     <Divider />
     <Page3 />
+    <Divider />
+    <Page4 />
+    <Divider />
+    <Page5 />
+    <Divider />
+    <Page6 />
     <Divider />
   </React.StrictMode>,
   document.getElementById('root')
