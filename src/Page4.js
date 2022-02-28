@@ -1,5 +1,4 @@
 import './App.css';
-import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 import React from 'react';
 
 function Page4() {
