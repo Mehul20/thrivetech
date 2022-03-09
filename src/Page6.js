@@ -24,7 +24,7 @@ function Page6() {
          <input 
          type="radio" 
          id="meditate" 
-         name="meditate" 
+         name="goals" 
          value="meditate"
          checked = {isChecked[0]}
          onChange = {() => handleOnChange(0)}
@@ -38,7 +38,7 @@ function Page6() {
          <input 
          type="radio" 
          id="homework" 
-         name="homework" 
+         name="goals" 
          value="homework"
          checked = {isChecked[1]}
          onChange = {() => handleOnChange(1)}
@@ -51,7 +51,7 @@ function Page6() {
 
          <input type="radio" 
          id="relaxation" 
-         name="relaxation" 
+         name="goals" 
          value="relaxation"
          checked = {isChecked[2]}
          onChange = {() => handleOnChange(2)}
@@ -62,7 +62,7 @@ function Page6() {
 
 
 
-         <input type="radio" id="studying" name="studying" value="studying"
+         <input type="radio" id="studying" name="goals" value="studying"
          checked = {isChecked[3]}
          onChange = {() => handleOnChange(3)}
          
@@ -72,12 +72,12 @@ function Page6() {
 
 
 
-         <input type="radio" id="hobbies" name="hobbies" value="hobbies"
+         <input type="radio" id="hobbies" name="goals" value="hobbies"
          checked = {isChecked[4]}
          onChange = {() => handleOnChange(4)}
          ></input>
          <label for="hobbies"> Hobbies</label><br></br>
-         <input type="radio" id="exercise" name="exercise" value="exercise"
+         <input type="radio" id="exercise" name="goals" value="exercise"
          checked = {isChecked[5]}
          onChange = {() => handleOnChange(5)}
          
