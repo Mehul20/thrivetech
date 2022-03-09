@@ -8,11 +8,13 @@ import Page35 from './Page35'
 import Page4 from './Page4'
 import Page5 from './Page5'
 import Page6 from './Page6'
+import Meditation from './meditation'
 import reportWebVitals from './reportWebVitals';
 import Divider from '@mui/material/Divider';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -39,6 +41,10 @@ ReactDOM.render(
     <Divider />
     <Page6 />
     <Divider />
+    <div id="meditation">
+      
+    <Meditation /> 
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
