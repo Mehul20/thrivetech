@@ -1,11 +1,11 @@
 import './App.css';
-import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
+import FitbitIcon from '@mui/icons-material/Fitbit';
 
 function hobbies() {
   return (
     <div className="App">
       <header className="App-header">
-        <SelfImprovementIcon style={{ fontSize: 150, color:'black' }}/>
+        <FitbitIcon style={{ fontSize: 150, color:'black' }}/>
         <p className="Textstyle">
         Hobbies
         </p>
