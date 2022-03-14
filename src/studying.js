@@ -1,11 +1,11 @@
 import './App.css';
-import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
+import SchoolIcon from '@mui/icons-material/School';
 
 function meditation() {
   return (
     <div className="App">
       <header className="App-header">
-        <SelfImprovementIcon style={{ fontSize: 150, color:'black' }}/>
+        <SchoolIcon style={{ fontSize: 150, color:'black' }}/>
         <p className="Textstyle">
           Studying
           <br /> 
