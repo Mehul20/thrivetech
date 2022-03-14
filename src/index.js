@@ -4,14 +4,22 @@ import './index.css';
 import Page1 from './Page1'
 import Page2 from './Page2'
 import Page3 from './Page3'
+import Page35 from './Page35'
 import Page4 from './Page4'
 import Page5 from './Page5'
 import Page6 from './Page6'
+import Meditation from './meditation'
+import Homework from './homework'
+import Relaxation from './relaxation';
+import Studying from './studying'
+import Hobbies from './hobbies'
+import Exercise from './exercise'
 import reportWebVitals from './reportWebVitals';
 import Divider from '@mui/material/Divider';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -30,12 +38,62 @@ ReactDOM.render(
     <Divider />
     <Page3 />
     <Divider />
+    <Page35 />
+    <Divider />
     <Page4 />
     <Divider />
     <Page5 />
     <Divider />
     <Page6 />
     <Divider />
+
+    <div id="meditation">
+    <Meditation /> 
+    </div>
+
+    <Divider />
+  
+    <div id="homeworkpage">
+      
+    <Homework />
+    </div>
+
+    <Divider />
+  
+    <div id="relaxationpage">
+      
+    <Relaxation />
+    </div>
+
+    <Divider />
+  
+    <div id="studyingpage">
+      
+    <Studying />
+
+    </div>
+
+    <Divider />
+  
+  <div id="hobbiespage">
+    
+  <Hobbies />
+
+  </div>
+
+  <Divider />
+  
+  <div id="exercisepage">
+    
+  <Exercise />
+
+  </div>
+
+  <Divider />
+
+
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
