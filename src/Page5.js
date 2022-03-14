@@ -10,13 +10,13 @@ function Page5() {
         <p className="Textstyle">
           HELLO
         </p>
-        <Button color="primary" variant="contained">
+        <Button color="primary" variant="contained" href="#checkinpage">
         CHECK IN
       </Button>
       <Button color="primary" variant="contained">
         EVENT CALENDAR
       </Button>
-      <Button color="primary" variant="contained">
+      <Button color="primary" variant="contained" href="#resourcespage">
         RESOURCES
       </Button>
       </header>
