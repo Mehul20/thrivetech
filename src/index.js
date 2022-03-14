@@ -9,6 +9,11 @@ import Page4 from './Page4'
 import Page5 from './Page5'
 import Page6 from './Page6'
 import Meditation from './meditation'
+import Homework from './homework'
+import Relaxation from './relaxation';
+import Studying from './studying'
+import Hobbies from './hobbies'
+import Exercise from './exercise'
 import reportWebVitals from './reportWebVitals';
 import Divider from '@mui/material/Divider';
 import AppBar from '@mui/material/AppBar';
@@ -41,10 +46,54 @@ ReactDOM.render(
     <Divider />
     <Page6 />
     <Divider />
+
     <div id="meditation">
-      
     <Meditation /> 
     </div>
+
+    <Divider />
+  
+    <div id="homeworkpage">
+      
+    <Homework />
+    </div>
+
+    <Divider />
+  
+    <div id="relaxationpage">
+      
+    <Relaxation />
+    </div>
+
+    <Divider />
+  
+    <div id="studyingpage">
+      
+    <Studying />
+
+    </div>
+
+    <Divider />
+  
+  <div id="hobbiespage">
+    
+  <Hobbies />
+
+  </div>
+
+  <Divider />
+  
+  <div id="exercisepage">
+    
+  <Exercise />
+
+  </div>
+
+  <Divider />
+
+
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );

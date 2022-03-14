@@ -93,15 +93,15 @@ function Page6() {
       isChecked[0] ? (
        <Button color="primary" variant="contained" id="goals" href='#meditation'> NEXT</Button>
       ) : isChecked[1] ? (
-        <Button color="primary" variant="contained" id="goals" href='#meditation'> NEXT</Button>
+        <Button color="primary" variant="contained" id="goals" href='#homeworkpage'> NEXT</Button>
       ) : isChecked[2] ? (
-        <Button color="primary" variant="contained" id="goals" href='#meditation'> NEXT</Button>
+        <Button color="primary" variant="contained" id="goals" href='#relaxationpage'> NEXT</Button>
       ) : isChecked[3] ? (
-        <Button color="primary" variant="contained" id="goals" href='#meditation'> NEXT</Button>
+        <Button color="primary" variant="contained" id="goals" href='#studyingpage'> NEXT</Button>
       ) : isChecked[4] ? (
-        <Button color="primary" variant="contained" id="goals" href='#meditation'> NEXT</Button>
+        <Button color="primary" variant="contained" id="goals" href='#hobbiespage'> NEXT</Button>
       ): isChecked[5] ? (
-        <Button color="primary" variant="contained" id="goals" href='#meditation'> NEXT</Button>
+        <Button color="primary" variant="contained" id="goals" href='#exercisepage'> NEXT</Button>
       ) :
       (
         <Button color="primary" variant="contained" id="goals"> NEXT </Button>
