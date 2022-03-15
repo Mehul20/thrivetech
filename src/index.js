@@ -14,6 +14,7 @@ import Relaxation from './relaxation';
 import Studying from './studying'
 import Hobbies from './hobbies'
 import Exercise from './exercise'
+import Resources from './resources'
 import reportWebVitals from './reportWebVitals';
 import Divider from '@mui/material/Divider';
 import AppBar from '@mui/material/AppBar';
@@ -44,7 +45,11 @@ ReactDOM.render(
     <Divider />
     <Page5 />
     <Divider />
+
+    <div id ="checkinpage">
     <Page6 />
+    </div>
+
     <Divider />
 
     <div id="meditation">
@@ -91,7 +96,11 @@ ReactDOM.render(
 
   <Divider />
 
+  <div id="resourcespage">
+    <Resources /> 
+    </div>
 
+    <Divider />
 
 
   </React.StrictMode>,
