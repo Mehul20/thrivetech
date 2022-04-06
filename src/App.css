@@ -8,9 +8,8 @@
 }
 
 .App-header {
-  background: #fc00ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(156,139,249);
+  background: linear-gradient(90deg, rgba(156,139,249,1) 0%, rgba(118,238,202,1) 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +23,18 @@
   color: #61dafb;
 }
 .Textstyle {
-font-size: xx-large;
-font-family: 'Dancing Script', cursive;
+font-size: x-large;
+font-family: 'Arvo', serif;
+font-family: 'Suranna', serif;
+color: black;
+}
+
+.heading {
+  font-size: xx-large;
+  font-family: 'Arvo', serif;
+  font-family: 'Suranna', serif;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 

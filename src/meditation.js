@@ -5,12 +5,21 @@ function meditation() {
   return (
     <div className="App">
       <header className="App-header">
-        <SelfImprovementIcon style={{ fontSize: 150, color:'black' }}/>
-        <p className="Textstyle">
-          1. Listen to the 'Mindful Minute' podcast on Spotify. 
-          <br /> 
+        <SelfImprovementIcon style={{ fontSize: 150, color:'white' }}/>
+        <p className="heading">
+          MEDITATION
+        </p>
+        
+        
+        <p className="Textstyle" >
+        1) Listen to the Mindful Minute podcast.
 
-          2. Take a 20 minute walk on Tech Green.
+
+          <br /> 
+          2) Identify 10 minutes in your schedule 3 times a week to find a quiet spot to focus on your breathing and posture.
+
+          <br />
+          3) Attend a yoga class at the CRC.
         </p>
       </header>
       

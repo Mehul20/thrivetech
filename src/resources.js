@@ -5,7 +5,6 @@ function resources() {
   return (
     <div className="App">
       <header className="App-header">
-        <SelfImprovementIcon style={{ fontSize: 150, color:'black' }}/>
         <h1>
             RESOURCES
         </h1>

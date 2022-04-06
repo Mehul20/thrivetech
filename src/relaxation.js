@@ -5,7 +5,7 @@ function relaxation() {
   return (
     <div className="App">
       <header className="App-header">
-        <SelfImprovementIcon style={{ fontSize: 150, color:'black' }}/>
+        <SelfImprovementIcon style={{ fontSize: 150, color:'white' }}/>
         <p className="Textstyle">
           RELAXATION
           <br /> 
