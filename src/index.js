@@ -43,7 +43,11 @@ ReactDOM.render(
     <Divider />
     <Page4 />
     <Divider />
+    
+    <div id ="page5">
     <Page5 />
+    </div>
+
     <Divider />
 
     <div id ="checkinpage">

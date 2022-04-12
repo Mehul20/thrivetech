@@ -1,5 +1,6 @@
 import './App.css';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
+import CircleIcon from '@mui/icons-material/Circle';
 
 function meditation() {
   return (
@@ -12,14 +13,14 @@ function meditation() {
         
         
         <p className="Textstyle" >
-        1) Listen to the Mindful Minute podcast.
+        <CircleIcon style={{ fontSize: 10}}/> Listen to the Mindful Minute podcast on Spotify and meditate along the way.
 
 
           <br /> 
-          2) Identify 10 minutes in your schedule 3 times a week to find a quiet spot to focus on your breathing and posture.
+          <CircleIcon style={{ fontSize: 10}}/>  Identify 10 minutes in your schedule 3 times a week to find a quiet spot to focus on your breathing and posture.
 
           <br />
-          3) Attend a yoga class at the CRC.
+          <CircleIcon style={{ fontSize: 10}}/>  Attend a yoga class at the CRC. Both sunrise yoga and afternoon yoga options are available.
         </p>
       </header>
       

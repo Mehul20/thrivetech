@@ -24,19 +24,34 @@
 }
 .Textstyle {
 font-size: x-large;
-font-family: 'Arvo', serif;
-font-family: 'Suranna', serif;
+font-family: 'Alice', serif;
 color: black;
-margin-left: 200px;
-margin-right: 200px;
+margin-left: 100px;
+margin-right: 100px;
+line-height: 300%;
+text-align: left;
 }
 
 .heading {
-  font-size: xx-large;
-  font-family: 'Arvo', serif;
-  font-family: 'Suranna', serif;
+  font-size: xxx-large;
+  font-family: 'Alice', serif;
   color: black;
   margin-bottom: 10px;
   font-weight: bold;
+  text-decoration: underline double white;
 }
 
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+}
