@@ -6,18 +6,19 @@ function Page4() {
       <div className="App">
         <header className="App-header">
           {/* <AlarmOnIcon style={{ fontSize: 150, color:'black' }}/> */}
-          <p className="Textstyle">
-           FORM
-           <br /> 
-           <form>
-            <label>
-                Name:
+          <p className="heading">
+           Let's Begin!
+           </p>
+           <p className="Textstyle"> What's your name? </p>
+           <form name ="nameform">
+            
+                
                 <input type="text" name="name" />
-            </label>
-            <input type="submit" value="Submit" />
+            
+            <input type="button" value="Submit" onClick="#page5" />
             </form>
             
-          </p>
+          
         </header>
         
       </div>
