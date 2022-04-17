@@ -29,7 +29,7 @@ color: black;
 margin-left: 100px;
 margin-right: 100px;
 line-height: 300%;
-text-align: left;
+text-align: center;
 }
 
 .heading {
@@ -39,6 +39,14 @@ text-align: left;
   margin-bottom: 10px;
   font-weight: bold;
   text-decoration: underline double white;
+}
+
+.heading2 {
+  font-size: xx-large;
+  font-family: 'Alice', serif;
+  color: black;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
