@@ -7,18 +7,18 @@ function Page5() {
     <div className="App">
       <header className="App-header">
         {/* <img src={image} className="App-logo" alt="logo" /> */}
-        <p className="Textstyle">
+        <p className="heading2">
           HELLO
         </p>
+        <div className = "Buttons">
         <Button color="primary" variant="contained" href="#checkinpage">
         CHECK IN
       </Button>
-      <Button color="primary" variant="contained">
-        EVENT CALENDAR
-      </Button>
+
       <Button color="primary" variant="contained" href="#resourcespage">
         RESOURCES
       </Button>
+      </div>
       </header>
      
       

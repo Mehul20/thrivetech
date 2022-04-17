@@ -9,10 +9,10 @@ function Page1() {
     <div className="App">
       <header className="App-header">
         <img src={image} className="App-logo" alt="logo" />
-        <p className="Textstyle">
+        <p className="heading2">
           Thrive Tech
         </p>
-        <Button color="primary" variant="contained">
+        <Button color="primary" variant="contained" href="#page5">
         Let's Begin
       </Button>
      

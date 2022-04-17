@@ -6,9 +6,10 @@ function Page3() {
     <div className="App">
       <header className="App-header">
         <AlarmOnIcon style={{ fontSize: 150, color:'black' }}/>
-        <p className="Textstyle">
+        <p className="heading2">
          MANAGE YOUR TIME
-         <br /> 
+         </p> 
+         <p className="Textstyle">
          Make Plans and let us help you Execute them!
           
         </p>

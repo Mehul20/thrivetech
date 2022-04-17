@@ -5,7 +5,6 @@ import Page1 from './Page1'
 import Page2 from './Page2'
 import Page3 from './Page3'
 import Page35 from './Page35'
-import Page4 from './Page4'
 import Page5 from './Page5'
 import Page6 from './Page6'
 import Meditation from './meditation'
@@ -40,8 +39,6 @@ ReactDOM.render(
     <Page3 />
     <Divider />
     <Page35 />
-    <Divider />
-    <Page4 />
     <Divider />
     
     <div id ="page5">

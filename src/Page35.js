@@ -6,13 +6,13 @@ function Page35() {
     <div className="App">
       <header className="App-header">
         <SelfImprovementIcon style={{ fontSize: 150, color:'black' }}/>
-        <p className="Textstyle">
+        <p className="heading2">
          HEALTHY LIVING
-         <br /> 
+         </p> 
+         <p className="Textstyle">
          Exercises tailored towards your wants and needs.
          
-          
-        </p>
+         </p>
       </header>
       
     </div>
