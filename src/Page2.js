@@ -6,10 +6,10 @@ function Page2() {
     <div className="App">
       <header className="App-header">
         <ConnectWithoutContactIcon style={{ fontSize: 150, color:'black' }}/>
-        <p className="Textstyle">
+        <p className="heading2">
           CONNECT 
-          <br /> 
-
+          </p> 
+          <p className="Textstyle"> 
           Connect with Campus Organizations and Make New Friends!
           
         </p>

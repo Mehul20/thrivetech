@@ -42,12 +42,15 @@ text-align: center;
 }
 
 .heading2 {
-  font-size: xx-large;
+  font-size: xxx-large;
   font-family: 'Alice', serif;
   color: black;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   font-weight: bold;
+  text-decoration: underline double white;
 }
+
+
 
 input[type=button], input[type=submit], input[type=reset] {
   background-color: blue;
@@ -63,3 +66,13 @@ input[type=text] {
   width: 100%;
   margin-bottom: 20px;
 }
+
+.Buttons {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  gap: 40px;
+}
+
+
