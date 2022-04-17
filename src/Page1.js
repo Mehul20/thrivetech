@@ -1,7 +1,6 @@
 import image from './front.png'
 import './App.css';
 import Button from '@material-ui/core/Button';
-import Page2 from "./Page2";
   
 
 function Page1() {
