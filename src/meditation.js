@@ -1,6 +1,7 @@
 import './App.css';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import CircleIcon from '@mui/icons-material/Circle';
+import Button from '@material-ui/core/Button';
 
 function meditation() {
   return (
@@ -22,6 +23,9 @@ function meditation() {
           <br />
           <CircleIcon style={{ fontSize: 10}}/>  Attend a yoga class at the CRC. Both sunrise yoga and afternoon yoga options are available.
         </p>
+        <Button color="primary" variant="contained" href="#page5">
+        BACK
+      </Button>
       </header>
       
     </div>

@@ -1,6 +1,7 @@
 import './App.css';
 import SchoolIcon from '@mui/icons-material/School';
 import CircleIcon from '@mui/icons-material/Circle';
+import { Button } from '@material-ui/core';
 
 function meditation() {
   return (
@@ -21,6 +22,9 @@ function meditation() {
         <CircleIcon style={{ fontSize: 10}}/>Study for the style of the exam. If it is multiple choice then study definitions and concepts. If it is an essay exam then focus on your understanding of all the concepts presented
 
         </p>
+        <Button color="primary" variant="contained" href="#page5">
+        BACK
+      </Button>
       </header>
       
     </div>

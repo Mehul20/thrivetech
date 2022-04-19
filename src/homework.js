@@ -1,6 +1,8 @@
 import './App.css';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import CircleIcon from '@mui/icons-material/Circle';
+import Button from '@material-ui/core/Button';
+
 
 function homework() {
   return (
@@ -19,6 +21,9 @@ function homework() {
         <p className="Textstyle" style={{textAlign:''}}> 
           <CircleIcon style={{ fontSize: 10}}/> Set a timer every 30 mins to allow yourself a break for 5 mins so that you do not tire easily
         </p>
+        <Button color="primary" variant="contained" href="#page5">
+        BACK
+      </Button>
       </header>
       
     </div>

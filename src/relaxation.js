@@ -1,6 +1,7 @@
 import './App.css';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import CircleIcon from '@mui/icons-material/Circle';
+import Button from '@material-ui/core/Button';
 
 function relaxation() {
   return (
@@ -22,6 +23,9 @@ function relaxation() {
         <p className="Textstyle" >
         <CircleIcon style={{ fontSize: 10}}/> When you’re feeling stressed, take a step outside and go for a short walk, or simply sit in nature.
         </p>
+        <Button color="primary" variant="contained" href="#page5">
+        BACK
+      </Button>
       </header>
       
     </div>
