@@ -6,8 +6,11 @@ import {useState} from "react";
 function Page6() {
 
   const [isChecked, setIsChecked] = useState(new Array(6).fill(false))
+  
   const handleOnChange = (position) => {
+    isChecked.fill(false);
     const updatedCheckState = isChecked.map((item, index) => 
+        
         index === position ? !item : item
   );
   setIsChecked(updatedCheckState);
@@ -106,8 +109,9 @@ function Page6() {
       (
         <Button color="primary" variant="contained" id="goals"> NEXT </Button>
       )
-      
+     
       }
+      
 </div>
       </header>
       
