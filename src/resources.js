@@ -53,6 +53,7 @@ function resources() {
         </h2>
         <p className="Textstyle">
         <CircleIcon style={{ fontSize: 10}}/>1-to-1 Tutoring: 1-to-1 Tutoring is a free, appointment-based tutoring program offered to all Georgia Tech undergraduate students.
+        <a href="https://tutoring.gatech.edu/tutoring/" >Visit the Website</a>
         </p>
         <p className="Textstyle">
         <CircleIcon style={{ fontSize: 10}}/>PLUS: PLUS sessions are group study sessions that facilitate learning in a relaxed, collaborative environment. 

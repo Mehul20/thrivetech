@@ -16,7 +16,7 @@ function exercise() {
         </p>
         <p className="Textstyle" >
         <CircleIcon style={{ fontSize: 10}}/>Sign up for a class at the CRC: You may find that having the structure of a class helps you learn a new activity and keeps you on track.
-        </p>
+        < a href="https://www.crc.gatech.edu/">Sign up!</a> </p>
         <p className="Textstyle" >
         <CircleIcon style={{ fontSize: 10}}/>Include some off-days into your workout schedule to ensure you do not burn yourself out. 
 
