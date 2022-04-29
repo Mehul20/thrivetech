@@ -3,11 +3,11 @@
 A web application to combat Mental Health issues for the Georgia Tech community. 
 
 # Builders:
-a) Mehul Rastogi
-b) Aashna Doshi
-c) Rhea Ganguli
-d) Andy Nguyen
+a) Mehul Rastogi <br />
+b) Aashna Doshi <br />
+c) Rhea Ganguli <br />
+d) Andy Nguyen <br />
 
 # Mentors:
-a) Dr. Joyelle Harris
-b) Leharika Prakash
+a) Dr. Joyelle Harris <br />
+b) Leharika Prakash <br />
